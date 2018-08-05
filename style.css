@@ -48,7 +48,7 @@ html{
     display: none;
 }
 
-#question{
+#fruitsContainer{
     width: 650px;
     height: 400px;
     margin: 50px auto 10px auto;
@@ -60,6 +60,8 @@ html{
     text-align: center;
     font-family: cursive, sans-serif;
     color: black;
+    position: relative;
+    overflow: hidden;
 }
 
 #instruction{
@@ -134,7 +136,7 @@ html{
     -ms-transition: all 0.2s;
 }
 
-#trialsleft{
+#trialsLeft{
     width: 80px;
     padding: 10px;
     position: absolute;
@@ -159,5 +161,16 @@ html{
     top: 170px;
     left: 145px;
     z-index: 2;
-    /* display: none; */
+    display: none;
+}
+
+.life{
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+}
+
+.fruit{
+    display: none;
+    position: absolute;
 }
